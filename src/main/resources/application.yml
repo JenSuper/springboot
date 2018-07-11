@@ -1,0 +1,22 @@
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?characterEncoding=utf8
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+  thymeleaf:
+    cache: false
+#默认配置(如果需要修改文件位置，可以自定义)
+#    prefix: classpath:templates/
+#    suffix: .html
+
+

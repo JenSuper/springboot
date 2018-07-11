@@ -1,0 +1,6 @@
+server:
+  port: 8080
+peo:
+  sex: 男
+  age: 2
+

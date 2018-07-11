@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>登录页面</title>
+</head>
+<body>
+    <h1>hello springBoot</h1>
+    <form action="/userList" method="post">
+        <!--隐藏的作用域用来存储token-->
+        <input type="hidden" name="token" value="th" />
+        账户：<input type="text" name="username"/>
+        密码：<input type="text" name="password"/>
+        <input type="submit" value="登录"/>
+    </form>
+</body>
+</html>

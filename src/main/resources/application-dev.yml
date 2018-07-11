@@ -1,0 +1,7 @@
+server:
+  port: 8081
+peo:
+  sex: 女
+  age: 1
+
+
