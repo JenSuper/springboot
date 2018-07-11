@@ -43,6 +43,7 @@ public class UserService {
         }else if("123".equals(u.getName())){
             throw  new UserException(UserEnum.ERROS_ENUM);
         }
+
     }
 
     public User findOne(Integer id){
